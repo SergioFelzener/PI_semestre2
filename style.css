@@ -1,7 +1,7 @@
 
 
 html,body{
-background-image: url(img/3dBackground.jpg);
+background-image:url(img/3dBackground.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 height: 100%;
@@ -19,12 +19,15 @@ margin-top: auto;
 margin-bottom: auto;
 width: 400px;
 background-color: rgba(0,0,0,0.5) !important;
+display: block;
+
+
 }
 
 .social_icon span{
-font-size: 60px;
+font-size: 50px; 
 margin-left: 10px;
-color: blue;
+color:#3283a8;
 }
 
 .social_icon span:hover{
@@ -44,8 +47,8 @@ top: -45px;
 
 .input-group-prepend span{
 width: 50px;
-background-color:	#8B008B;
-color: black;
+background-color:#3283a8;
+color: white;
 border:0 !important;
 }
 
@@ -68,14 +71,14 @@ margin-right: 5px;
 }
 
 .login_btn{
-color: black;
-background-color:	#8B008B;
+color: white;
+background-color: #3283a8;
 width: 100px;
 }
 
 .login_btn:hover{
 color: black;
-background-color: white;
+background-color:white;
 }
 
 .links{
@@ -84,4 +87,11 @@ color: white;
 
 .links a{
 margin-left: 4px;
+}
+
+p {
+    color:white;
+    text-align: center;
+    background-color: red;
+
 }
